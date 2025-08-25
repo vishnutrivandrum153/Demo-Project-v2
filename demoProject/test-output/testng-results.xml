@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-25T18:12:35 IST" name="Suite" finished-at="2025-08-25T18:12:50 IST" duration-ms="15054">
+    <groups>
+      <group name="regression">
+        <method signature="ManageNewsTest.test()[pri:1, instance:testScript.ManageNewsTest@14dd7b39]" name="test" class="testScript.ManageNewsTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2025-08-25T18:12:35 IST" name="Test" finished-at="2025-08-25T18:12:50 IST" duration-ms="15054">
+      <class name="testScript.ManageNewsTest">
+        <test-method is-config="true" signature="browserInitilization(java.lang.String)[pri:0, instance:testScript.ManageNewsTest@14dd7b39]" started-at="2025-08-25T18:12:35 IST" name="browserInitilization" finished-at="2025-08-25T18:12:41 IST" duration-ms="5303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitilization -->
+        <test-method signature="test()[pri:1, instance:testScript.ManageNewsTest@14dd7b39]" started-at="2025-08-25T18:12:41 IST" name="test" finished-at="2025-08-25T18:12:45 IST" duration-ms="3995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testScript.ManageNewsTest@14dd7b39]" started-at="2025-08-25T18:12:45 IST" name="browserQuit" finished-at="2025-08-25T18:12:45 IST" duration-ms="390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=ManageNewsTest.test()[pri:1, instance:testScript.ManageNewsTest@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitilization(java.lang.String)[pri:0, instance:testScript.ManageNewsTest@14dd7b39]" started-at="2025-08-25T18:12:45 IST" name="browserInitilization" finished-at="2025-08-25T18:12:47 IST" duration-ms="2283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitilization -->
+        <test-method signature="editNewsTest()[pri:2, instance:testScript.ManageNewsTest@14dd7b39]" started-at="2025-08-25T18:12:47 IST" name="editNewsTest" finished-at="2025-08-25T18:12:50 IST" duration-ms="2720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editNewsTest -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testScript.ManageNewsTest@14dd7b39]" started-at="2025-08-25T18:12:50 IST" name="browserQuit" finished-at="2025-08-25T18:12:50 IST" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editNewsTest status=SUCCESS method=ManageNewsTest.editNewsTest()[pri:2, instance:testScript.ManageNewsTest@14dd7b39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- testScript.ManageNewsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
