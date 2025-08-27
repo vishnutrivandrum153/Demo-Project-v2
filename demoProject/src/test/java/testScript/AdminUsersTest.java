@@ -13,7 +13,7 @@ import utilities.FakerUtility;
 
 public class AdminUsersTest extends Base {
 
-	@Test(priority = 1, retryAnalyzer=retry.Retry.class)
+	@Test(priority = 1, retryAnalyzer=retry.Retry.class, description="Admin login")
 	public void testAddAdmin() throws IOException {
 		String loginUserName = ExcelUtility.getstringData(1,0, "LoginPage"); // Fetching username from Excel file. 1,0 represent cell position
 		String loginPassword = ExcelUtility.getstringData(1,1, "LoginPage");
@@ -35,7 +35,7 @@ public class AdminUsersTest extends Base {
 		adminuserspage.enterNewAdminPassword(loginPasswordAdmin);
 		adminuserspage.selectUserType();
 		adminuserspage.clickSaveAdminButton();
-		Assert.assertTrue(adminuserspage.isSuccessAlertDisplayed());
+		Assert.assertTrue(adminuserspage.isSuccessAlertDisplayed(), "Success Alert is not displayed");
 		
 	}
 
